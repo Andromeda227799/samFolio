@@ -1,0 +1,99 @@
+.container{
+    padding-top: 50px;
+    /* height:10%; */
+    /* width: 100vw; */
+    color: rgb(188,180,180);
+    font-size: 20px;
+    background-color:rgb(30,30,30);
+    padding-left: 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin-right: 12px;
+}
+.about-intro{
+    margin:0px;
+}
+.leftt{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: 0;
+    
+}
+.shamith{
+    font-size:40px;
+    margin:0;
+
+}
+.picContainer{
+    width: 100%;
+    
+}
+.aboutMe{
+    font-family: 'Montserrat', sans-serif;
+    font-size:80px;
+    font-weight: bolder;
+}
+.pic{
+    height: 350px;
+    margin-left:30px;
+    border-radius: 0px;
+    border-width: 3px;
+    border-style: solid;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-right: 14vh;
+    margin: 0;
+}
+
+.pic{
+    margin: 40px 100px 0 140px;
+
+}
+
+@media all and (max-width:720px) {
+    .container{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0em;
+        justify-content: center;
+        
+    }
+    .text{
+        width: 100%;
+        padding: 5px;
+        /* box-sizing: border-box; */
+        margin: 10px;
+    }
+    .aboutMe {
+        margin-block: 10px;
+        font-size: 3rem;
+        /* text-decoration:double; */
+        font-weight: bolder;
+    }
+    .aboutMe b{
+        font-size: 3.5rem;
+        /* text-decoration:underline; */
+        font-weight: bolder;
+    }
+    .pic{
+        margin-left: 10vw;
+        height: 50vh;
+        margin-block: 40px;
+    }
+    .buttonContainer{
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+    .about-intro{
+        display: none;
+    }
+}

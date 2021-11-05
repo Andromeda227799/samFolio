@@ -1,0 +1,15 @@
+.mobileHeaderTag{
+    color: rgb(188,180,180);
+    display: flex;
+    margin-block: 15px;
+    font-size: x-large;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.mobileHeaderTag a{
+    color: rgb(188,180,180);
+    text-decoration: none;
+}
+.icon{
+    margin-right: 8px;
+}

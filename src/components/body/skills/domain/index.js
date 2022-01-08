@@ -6,8 +6,6 @@ function Domain({icon,heading,text}) {
             {icon}
             <p className="domain-heading">{heading}</p>
             <p className="domain-text">{text}</p>
-            
-            
         </div>
     )
 }

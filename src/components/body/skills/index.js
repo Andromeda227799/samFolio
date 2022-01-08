@@ -12,8 +12,8 @@ function Skills() {
     let mobileDevIcon=<MdAppSettingsAlt size="2em"></MdAppSettingsAlt>;
     let webDevHeading="Web Dev";
     let mobileDevHeading="Mobile apps";
-    let webDevText="I have a good experience with web frameworks like React, jQuery and Springboot";
-    let mobileDevText="I also develop mobile apps with React-Native/Java"
+    let webDevText="I have a good experience with web frameworks like React, Next.js, jQuery and Springboot";
+    let mobileDevText="I also develop mobile apps with React-Native & Java"
     let cppIcon=<BsCodeSlash  size={"2em"} style={style}></BsCodeSlash>;
     let cppHeading="Data Structures";
     let cppText="In my free time I love solving real-world-like problems through Data Structures in C++";

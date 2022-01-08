@@ -2,14 +2,14 @@
 .main{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: fit-content;
     height: 100vh;
     background-color: rgb(38,38,38);
     
 }
 body {
     
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
   }
 
 html{
@@ -29,6 +29,7 @@ html{
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
+    height: 10px;
   }
   
   /* Track */

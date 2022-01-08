@@ -35,12 +35,13 @@
 @media only screen and (max-width:720px){
      .mobileMenu{
          display: flex;
+         
      }
      .webMenu{
          display: none;
      }
-     .logo{
-         font-size: 24px ;
+     .menuIcon{
+         font-size: 2rem ;
      }
      .header{
        

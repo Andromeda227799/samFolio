@@ -10,13 +10,14 @@
     display: flex;
     flex-direction: row;
     margin-right: 12px;
+    
 }
 .about-intro{
     margin:0px;
 }
 .leftt{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .text{
     width: 100%;
@@ -41,7 +42,8 @@
 }
 .pic{
     height: 350px;
-    margin-left:30px;
+    margin-left:15rem;
+    margin-top: 50px;
     border-radius: 0px;
     border-width: 3px;
     border-style: solid;
@@ -53,29 +55,30 @@
     margin: 0;
 }
 
-.pic{
-    margin: 40px 100px 0 140px;
 
-}
 
 @media all and (max-width:720px) {
     .container{
-        padding-top: 10px;
+        padding: 1.5rem;
         display: flex;
         flex-direction: column;
         padding-left: 0em;
         justify-content: center;
-        
+        align-items: center;
+        padding-inline: 3rem;
     }
     .text{
         width: 100%;
         padding: 5px;
-        /* box-sizing: border-box; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 10px;
+        font-size: 1.4rem;
     }
     .aboutMe {
         margin-block: 10px;
-        font-size: 3rem;
+        font-size: 3.5rem;
         /* text-decoration:double; */
         font-weight: bolder;
     }
@@ -85,9 +88,16 @@
         font-weight: bolder;
     }
     .pic{
-        margin-left: 10vw;
-        height: 50vh;
+        /* margin-left: 10vw; */
+        height: 20rem;
+        width: max-content;
         margin-block: 40px;
+        margin-left: 0;
+    }
+    .picContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .buttonContainer{
         margin-top: 20px;
@@ -95,5 +105,11 @@
     }
     .about-intro{
         display: none;
+    }
+    .leftt{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

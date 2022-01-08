@@ -1,0 +1,26 @@
+.sl-container{
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-inline: 30px;
+    color:rgb(188,180,180);
+}
+.sl-heading{
+    text-decoration: none;
+    margin-block: 5px;
+    font-size: 20px;
+    color:rgb(188,180,180);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon{
+    color:rgb(188,180,180);
+}
+
+@media all and (max-width:720px) {
+    .sl-container{
+        width: 80vw;
+    }
+}

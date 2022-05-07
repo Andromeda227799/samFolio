@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/samFolio/static/css/main.68ef6590.chunk.css",
-    "main.js": "/samFolio/static/js/main.1c08818d.chunk.js",
-    "main.js.map": "/samFolio/static/js/main.1c08818d.chunk.js.map",
+    "main.js": "/samFolio/static/js/main.4ba146b6.chunk.js",
+    "main.js.map": "/samFolio/static/js/main.4ba146b6.chunk.js.map",
     "runtime-main.js": "/samFolio/static/js/runtime-main.3f8b8a73.js",
     "runtime-main.js.map": "/samFolio/static/js/runtime-main.3f8b8a73.js.map",
     "static/css/2.ed1298f3.chunk.css": "/samFolio/static/css/2.ed1298f3.chunk.css",
@@ -14,19 +14,19 @@
     "static/css/2.ed1298f3.chunk.css.map": "/samFolio/static/css/2.ed1298f3.chunk.css.map",
     "static/css/main.68ef6590.chunk.css.map": "/samFolio/static/css/main.68ef6590.chunk.css.map",
     "static/js/2.9d0ed7e3.chunk.js.LICENSE.txt": "/samFolio/static/js/2.9d0ed7e3.chunk.js.LICENSE.txt",
-    "static/media/ShamithRao2.cacda583.pdf": "/samFolio/static/media/ShamithRao2.cacda583.pdf",
+    "static/media/ShamithRao2.3302013d.pdf": "/samFolio/static/media/ShamithRao2.3302013d.pdf",
     "static/media/ezFund.4b04ea67.png": "/samFolio/static/media/ezFund.4b04ea67.png",
     "static/media/ll.5066371f.png": "/samFolio/static/media/ll.5066371f.png",
     "static/media/obj.28349ef5.png": "/samFolio/static/media/obj.28349ef5.png",
     "static/media/potato.c66b1aa4.png": "/samFolio/static/media/potato.c66b1aa4.png",
     "static/media/sam1.6dee9b4e.jpg": "/samFolio/static/media/sam1.6dee9b4e.jpg",
-    "static/media/sam2.81601df7.jpg": "/samFolio/static/media/sam2.81601df7.jpg"
+    "static/media/sam2.a6513641.jpg": "/samFolio/static/media/sam2.a6513641.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3f8b8a73.js",
     "static/css/2.ed1298f3.chunk.css",
     "static/js/2.9d0ed7e3.chunk.js",
     "static/css/main.68ef6590.chunk.css",
-    "static/js/main.1c08818d.chunk.js"
+    "static/js/main.4ba146b6.chunk.js"
   ]
 }
